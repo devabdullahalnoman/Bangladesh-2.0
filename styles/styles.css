@@ -81,3 +81,7 @@ body {
   max-width: 474px;
   max-height: 400px;
 }
+
+.banner-btn {
+  margin-top: 8px;
+}
