@@ -14,7 +14,7 @@ body {
   font-family: "Fira Sans", serif;
   color: #ffffff;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 600;
   background-color: #006a50;
   border: none;
   border-radius: 8px;
@@ -78,7 +78,7 @@ body {
   text-decoration: none;
   color: #006a50;
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 /* Banner */
@@ -101,7 +101,7 @@ body {
   color: #0e0e0e;
   opacity: 50%;
   font-size: 24px;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .banner-description {
@@ -218,4 +218,64 @@ section {
 
 .quote-card .quote-content .vision-quote-description {
   margin-top: 4px;
+}
+
+/* Opinion section */
+
+.opinion-card {
+  background-color: #ffffff;
+  border: none;
+  padding: 32px;
+}
+
+table {
+  color: #0e0e0e;
+  width: 100%;
+  border: 1px solid #0e0e0e20;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #0e0e0e20;
+  padding: 24px;
+}
+
+thead {
+  text-align: left;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: #c6e4d6;
+}
+
+.question-head {
+  border-right: none;
+  width: 81%;
+}
+
+.answer-head {
+  border-left: none;
+}
+
+tbody {
+  border: 1px solid #0e0e0e20;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.question {
+  width: 81%;
+}
+
+.answer {
+  text-align: center;
+}
+
+select {
+  padding: 10px 14px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #c6e4d6;
 }
