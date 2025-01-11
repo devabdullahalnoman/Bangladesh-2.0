@@ -93,6 +93,7 @@ main {
 
 .nav-btn:hover {
   background-color: #c6e4d6;
+  cursor: pointer;
 }
 
 .nav-bar .nav-btn a {
