@@ -5,6 +5,12 @@
 body {
   background-color: #f1f1f3;
   font-family: "Fira Sans", serif;
+  margin: 0;
+  padding: 0;
+}
+
+header,
+main {
   padding: 0 160px;
 }
 
@@ -21,6 +27,11 @@ body {
   padding: 17px 34px;
 }
 
+.btn:hover {
+  background-color: #03bd8ff9;
+  cursor: pointer;
+}
+
 .section-title {
   font-size: 40px;
   font-weight: bold;
@@ -31,6 +42,12 @@ body {
   display: flex;
   justify-content: space-between;
   gap: 24px;
+}
+
+.white-card {
+  border: 2px solid #0e0e0e17;
+  background-color: #ffffff;
+  border-radius: 16px;
 }
 
 .card {
@@ -74,6 +91,10 @@ body {
   border-radius: 8px;
 }
 
+.nav-btn:hover {
+  background-color: #c6e4d6;
+}
+
 .nav-bar .nav-btn a {
   text-decoration: none;
   color: #006a50;
@@ -93,8 +114,8 @@ body {
 }
 
 .banner .banner-content {
-  max-width: 622px;
-  max-height: 326px;
+  width: 622px;
+  min-height: 326px;
 }
 
 .banner-title {
@@ -111,8 +132,8 @@ body {
 }
 
 .banner img {
-  max-width: 474px;
-  max-height: 400px;
+  width: 474px;
+  min-height: 400px;
 }
 
 .banner-btn {
@@ -132,11 +153,13 @@ section {
 }
 
 .pillar .pillar-card {
-  border: 2px solid #0e0e0e17;
-  background-color: #ffffff;
   width: 302px;
-  height: 245px;
+  min-height: 245px;
   padding: 24px;
+}
+
+.pillar-card:hover {
+  background-color: #a5a5a5;
 }
 
 /* Vision Section */
@@ -155,7 +178,7 @@ section {
   justify-content: space-between;
   border: none;
   width: 411px;
-  height: 260px;
+  min-height: 260px;
   padding: 32px;
 }
 
@@ -179,19 +202,32 @@ section {
   background-color: #5490f5;
 }
 
+.vision-btn-1:hover {
+  background-color: #0344b3;
+  cursor: pointer;
+}
+
 .vision-btn-2 {
   background-color: #09a15c;
+}
+
+.vision-btn-2:hover {
+  background-color: #01552f;
+  cursor: pointer;
 }
 
 .vision-btn-3 {
   background-color: #ffc239;
 }
 
+.vision-btn-3:hover {
+  background-color: #b07c02;
+  cursor: pointer;
+}
+
 /* Quote card */
 
 .quote-card {
-  border: 2px solid #0e0e0e17;
-  background-color: #ffffff;
   margin-top: 0px;
 }
 
@@ -223,7 +259,6 @@ section {
 /* Opinion section */
 
 .opinion-card {
-  background-color: #ffffff;
   border: none;
   padding: 32px;
 }
@@ -280,6 +315,11 @@ select {
   background-color: #c6e4d6;
 }
 
+select:hover {
+  background-color: #59c392;
+  cursor: pointer;
+}
+
 /* Recent News */
 
 .news-card-container {
@@ -318,4 +358,117 @@ select {
 
 .news-card-container .news-card .news-card-description {
   margin: 12px 0 32px 0;
+}
+
+/* Donation section */
+
+.donation {
+  text-align: center;
+  padding: 0 88px;
+}
+
+.donation-title {
+  margin-bottom: 24px;
+}
+
+.donation-description {
+  margin: 0;
+}
+
+.amount-card-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 32px 0;
+}
+
+.amount-card {
+  padding: 40px;
+}
+
+.amount-card:hover {
+  background-color: #c6e4d6;
+  cursor: pointer;
+}
+
+.amount {
+  color: #0e0e0e;
+  opacity: 80%;
+  font-size: 40px;
+  font-weight: bold;
+  margin: 0;
+}
+
+#donation-input {
+  padding: 20px 40px;
+  width: 87%;
+  text-align: center;
+  font-size: 20px;
+  border: none;
+  border-bottom: 2px solid #0e0e0e23;
+  margin-bottom: 32px;
+}
+
+/* Newsletter section */
+
+.newsletter {
+  text-align: center;
+  background-color: #c6e4d6;
+  border: none;
+  border-radius: 24px;
+  padding: 80px 100px;
+}
+
+.newsletter-title {
+  margin: 0;
+}
+
+.newsletter-description {
+  padding: 0 230px;
+  margin: 16px 0 24px 0;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+#subscription {
+  width: 50%;
+  margin-right: 0;
+  padding: 18px 40px;
+  border: none;
+  border-radius: 8px 0 0 8px;
+}
+
+.subscribe-btn {
+  margin-left: 0;
+  padding: 15px 34px;
+  border-radius: 0 8px 8px 0;
+}
+
+/* footer */
+
+footer {
+  text-align: center;
+  background-color: #ffffff;
+  padding: 50px 160px;
+}
+
+.foot-title {
+  margin-bottom: 32px;
+}
+
+hr {
+  border: 1px solid #0e0e0e10;
+  margin-bottom: 32px;
+}
+
+.logo {
+  margin: 0 11px;
+}
+
+.logo:hover {
+  cursor: pointer;
 }
